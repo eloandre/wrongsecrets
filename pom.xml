@@ -246,7 +246,7 @@
     <dependency>
       <groupId>com.github.spotbugs</groupId>
       <artifactId>spotbugs-annotations</artifactId>
-      <version>4.8.0</version>
+      <version>4.8.1</version>
     </dependency>
     <!--        <dependency>-->
     <!--            <groupId>com.h2database</groupId>-->
@@ -534,8 +534,8 @@
               <includes>
                 <include>.gitignore</include>
               </includes>
-              <trimTrailingWhitespace></trimTrailingWhitespace>
-              <endWithNewline></endWithNewline>
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
               <indent>
                 <tabs>true</tabs>
                 <spacesPerTab>4</spacesPerTab>
@@ -547,7 +547,7 @@
               <include>src/main/java/**/*.java</include>
               <include>src/test/java/**/*.java</include>
             </includes>
-            <removeUnusedImports></removeUnusedImports>
+            <removeUnusedImports/>
             <googleJavaFormat>
               <style>GOOGLE</style>
               <reflowLongStrings>true</reflowLongStrings>
@@ -602,7 +602,7 @@
         </os>
       </activation>
       <properties>
-        <script.extension></script.extension>
+        <script.extension/>
       </properties>
     </profile>
   </profiles>
