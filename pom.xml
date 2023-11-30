@@ -46,7 +46,7 @@
     <KeePassJava2.version>2.2.1</KeePassJava2.version>
     <asciidoctor.maven.plugin.version>2.2.4</asciidoctor.maven.plugin.version>
     <asciidoctorj.version>2.5.10</asciidoctorj.version>
-    <aws.sdk.version>2.21.13</aws.sdk.version>
+    <aws.sdk.version>2.21.17</aws.sdk.version>
     <bootstrap.version>5.3.1</bootstrap.version>
     <com.azure.spring.version>5.6.0</com.azure.spring.version>
     <cyclonedx.core.version>8.0.3</cyclonedx.core.version>
@@ -534,8 +534,8 @@
               <includes>
                 <include>.gitignore</include>
               </includes>
-              <trimTrailingWhitespace></trimTrailingWhitespace>
-              <endWithNewline></endWithNewline>
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
               <indent>
                 <tabs>true</tabs>
                 <spacesPerTab>4</spacesPerTab>
@@ -547,7 +547,7 @@
               <include>src/main/java/**/*.java</include>
               <include>src/test/java/**/*.java</include>
             </includes>
-            <removeUnusedImports></removeUnusedImports>
+            <removeUnusedImports/>
             <googleJavaFormat>
               <style>GOOGLE</style>
               <reflowLongStrings>true</reflowLongStrings>
@@ -602,7 +602,7 @@
         </os>
       </activation>
       <properties>
-        <script.extension></script.extension>
+        <script.extension/>
       </properties>
     </profile>
   </profiles>
