@@ -56,7 +56,7 @@
     <github.button.version>2.14.1</github.button.version>
     <java.version>21</java.version>
     <jquery.version>3.7.1</jquery.version>
-    <jruby.version>9.4.4.0</jruby.version>
+    <jruby.version>9.4.5.0</jruby.version>
     <lombok.version>1.18.30</lombok.version>
     <maven.compiler.target>21</maven.compiler.target>
     <spring.cloud-version>2022.0.4</spring.cloud-version>
@@ -534,8 +534,8 @@
               <includes>
                 <include>.gitignore</include>
               </includes>
-              <trimTrailingWhitespace></trimTrailingWhitespace>
-              <endWithNewline></endWithNewline>
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
               <indent>
                 <tabs>true</tabs>
                 <spacesPerTab>4</spacesPerTab>
@@ -547,7 +547,7 @@
               <include>src/main/java/**/*.java</include>
               <include>src/test/java/**/*.java</include>
             </includes>
-            <removeUnusedImports></removeUnusedImports>
+            <removeUnusedImports/>
             <googleJavaFormat>
               <style>GOOGLE</style>
               <reflowLongStrings>true</reflowLongStrings>
@@ -602,7 +602,7 @@
         </os>
       </activation>
       <properties>
-        <script.extension></script.extension>
+        <script.extension/>
       </properties>
     </profile>
   </profiles>
